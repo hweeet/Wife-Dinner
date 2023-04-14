@@ -1,0 +1,110 @@
+/** {
+    background-color: red;
+}*/
+
+@font-face {
+    font-family: 'Anuphan';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/anuphan/v2/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCkY9T4jEGSf3qGvtM4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    border-radius: 10%;
+    background-color: aqua;
+    font-weight: bold;
+    height: 100px;
+    border-radius: 35%;
+    border: none;
+}
+
+.button-triangle {
+    height: 0px;
+    width: 0px;;
+    position: absolute;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 18px solid aqua;
+    position: absolute;
+    right: 169px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: orange;
+}
+
+.button-triangle:active {
+    height: 0px;
+    width: 0px;;
+    position: absolute;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 18px solid orange;
+    position: absolute;
+    right: 169px;
+}
+
+#brittany {
+    height: 1000px;
+}
+
+.picture-container {
+    height: 100%;
+    width: 100%;
+}
+
+.picture-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+#responseOutput {
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    border-radius: 35%;
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Anuphan";
+    font-size:large;
+    font-weight: bold;
+}
+
+.response-text {
+    position: relative;
+    bottom: 600px;
+}
+
+.triangle {
+    height: 0px;
+    width: 0px;;
+    position: absolute;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 40px solid white;
+    bottom:110px;
+    left: 355px;
+}
