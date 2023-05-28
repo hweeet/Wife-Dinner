@@ -13,3 +13,4 @@ button.addEventListener("click", () => {
     responseOutput.innerHTML = speechBubble
 })
 
+/*For init*/
